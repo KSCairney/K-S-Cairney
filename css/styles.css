@@ -1,0 +1,280 @@
+body {
+    position: relative;
+    font-family: 'Josefin Slab', 'Libre Baskerville', Georgia, 'Times New Roman', Times, serif;
+}
+
+.anchor {
+    padding-top: 20px;
+}
+
+.KSC, .nav {
+    text-transform: uppercase;
+}
+
+.KSC a {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.KSC a:hover {
+    color: #539651;
+}
+
+.container a{
+    padding: 0 40px 0 0;
+    width: 100%
+}
+
+/* photo carousel */
+.carousel {
+    max-height: 800px;
+}
+
+a:hover {
+    color: #539651;
+}
+
+.carousel-caption {
+    padding: 0 0 40px 0;
+    letter-spacing: 0.05em;
+    font-variant: small-caps;
+}
+
+.carousel-caption h1 {
+    font-size: 3em;
+    font-weight: 900;
+}
+
+.carousel-caption p {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+/* info */
+.homeinfo {
+    padding: 20px 0 0 0;
+}
+
+/*typography*/
+.proj a {
+    color: black;
+    text-decoration: none;
+}
+
+.proj a:hover {
+    color: #539651;
+    transition: color 600ms;
+    -webkit-transition: color 600ms;
+}
+
+.proj a h3 {
+    font-weight: 900px;
+}
+
+.proj{
+    font-size: 1em;
+}
+
+#projects .header h1 {
+    margin: 40px 0 0 0;
+}
+
+.shadow{
+    color: #fff;
+    text-shadow: 1px 1px #210303;
+}
+
+/* About Page */
+#about .header {
+    margin: 40px 0 0 0;
+}
+
+.header {
+    text-align: center;
+}
+
+.column {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    position: relative;
+}
+
+.image img{
+    border-radius: 50% 0% 50% 50%;
+}
+
+.main-text {
+    clear: both;
+    padding-top: 60px;
+    padding: top right bottom left;
+    margin-bottom: 30px;
+}
+
+.skills {
+    background-image: url("../img/leaves.jpg");
+    color: #000;
+    padding: 0 0 40px 0;
+    font-weight: 400;
+}
+
+#skill-list {
+    margin-left: 50px;
+}
+
+/* about typography */
+.intro p {
+    font-size: 3em;
+    font-weight: 100;
+    -webkit-margin-before: 0;
+}
+
+#skill-list {
+    font-size: 2em;
+
+}
+
+.skills h3 {
+    text-align: center;
+    font-size: 3em;
+    padding: 0 0 20px 0; 
+}
+
+/*Contact Page*/
+#contact {
+    background-image: url("../img/wood.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 60px 0;
+}
+.header {
+    text-align: center;
+}
+
+.header h1{
+    padding: 20px;
+}
+.info p {
+    text-align: left;
+}
+
+.glyphicon:hover {
+    color: #539651;
+    transition: color 600ms;
+    -webkit-transition: color 600ms;
+}
+
+.halfy {
+    display: inline-block;
+    width: 44%;
+}
+
+.form-control {
+    width: 80%;
+    margin-left: 10%;
+}
+
+#note {
+    /*background-color: #fff;
+    opacity: .9;*/
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
+
+label, button {
+    margin-left: 10%;
+
+}
+
+.form-group{
+    text-align: left;
+}
+
+
+/*contact typography*/
+.info p {
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+.info p a:hover {
+    color: #539651;
+    text-decoration: none;
+}
+
+/* FAQ Page */
+#faq .header {
+    color: #000;
+}
+
+.panel-group {
+    background-color: #fff;
+}
+
+.learn-more {
+    color: #000;
+}
+
+.panel-group .container {
+    width: 60%;
+}
+
+.panel-title {
+    color: #539651;
+}
+
+/* footer */
+.footer a:active {
+    color: #539651;
+}
+
+footer{
+    text-align: center;
+    margin: auto;
+}
+
+.bttmInfo {
+    display: inline-block;
+    float: left;
+    text-align: center;
+    margin: 20px 0 0 5px;
+}
+
+/*learn more*/
+.learn {
+    width: 60%;
+}
+
+.learn-more {
+    text-align: left;
+    float: left;
+}
+
+.modal-button {
+    float: right;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+#modelembed {
+    height: 500px;
+    width: 100%;
+    padding: 10px;
+}
+
+/* Media Call */
+@media (max-width: 480px) { 
+    .container-fluid .carousel {
+        padding: 100px 0 0 0;
+    }
+
+    .carousel-caption h1 {
+        font-size: 2em;
+    }
+
+    .carousel-caption p {
+        font-size: 1em;
+    }
+}

@@ -21,7 +21,7 @@ $(document).ready(function(){
 
   // Tooltips
   $(function () {
-    $('#tsunOne, #pond, #englishEL, #KSCPort, #tsunTwo, #mcPix, #burton, #goopy, #bikeberlin').tooltip();
+    $('#tsunOne, #pond, #englishEL, #KSCPort, #tsunTwo, #mcPix, #burton, #goopy, #bikeberlin, #nsgv').tooltip();
   });
 
   $(function () {
